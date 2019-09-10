@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /eco
+
+spring:
+  profiles:
+    active: test
+
+  ############Mysql#############
+
+  datasource:
+    hikari.minimum-idle: 20
+    hikari.maximum-pool-size: 100
+
+
+
+##########Mybatis##############
+mybatis:
+  mapper-locations: cn/com/zhsz/eco/**/mapping/*.xml

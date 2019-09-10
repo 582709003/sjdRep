@@ -1,0 +1,16 @@
+############Mysql连接信息#############
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+    password: 582709
+
+#日志配置
+  logging:
+    file: log\myspringboot.log
+    level:
+      root : debug
+  pattern:
+    console : %d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level - %c{1}:%L %msg%n
+    file : %d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n
+
