@@ -17,7 +17,7 @@ public class TestHttp {
     public static void main(String[] args) throws Exception {
         URL url = new URL("http://pic.baike.soso.com/p/20090711/20090711101754-314944703.jpg");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        //此处需指定文件名称，否则会报拒绝访问  异常
+        //此处需指定文件名称，否则会报拒绝访问  异常ne
         File file = new File("D:\\sjd\\data\\a.jpg");
         HttpTool.streamToFile(connection,file);
     }
