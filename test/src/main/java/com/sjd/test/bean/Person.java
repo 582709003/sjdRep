@@ -16,7 +16,7 @@ import java.util.Map;
 
 @Component
 public class Person {
-    //@Value("${person.last-name}") // 从配置文件中获取值
+    //@Value("${person.last-name}") // 从配置文件中获取值的
     private String lastName;
 
     @Value("#{2*8}")  // spring表达式
