@@ -28,7 +28,7 @@
         <codec_version>1.11</codec_version>
         <httpclient.version>4.5.2</httpclient.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <xstream.version>1.4.9</xstream.version>
+        <xstream.version>1.4.10-java7</xstream.version>
         <httpmime.version>4.5.2</httpmime.version>
         <!--<httpclient.version>4.5.2</httpclient.version>-->
     </properties>
